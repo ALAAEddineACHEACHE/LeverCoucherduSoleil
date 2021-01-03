@@ -1,0 +1,91 @@
+#avertnojs {
+	font-size:1.2em;
+	color:hsl(0,100%,47%);
+	text-align:center;
+	}
+	body {
+		position:relative;
+		right:0;
+		width: 1000px; /* Largeur de la page hors marges et bordures */
+		margin:0 auto;
+		padding: 0 20px; /* Marges intérieures latérales */
+		border-left: 8px solid #AAA;
+		border-right: 8px solid #AAA;
+		background-color: #FFF; /* COULEUR DE FOND DE LA PAGE */
+		font-size: 0.85em;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: justify;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-family: Arial, Verdana, Geneva, sans-serif;
+		color: #444;
+		text-align: center;
+	}
+	html {
+		font-size: 100%;
+	}
+	p {
+		text-align:justify;
+		font-size:1.2em;
+	}
+	hr {
+		height:2px;
+		background-color:gray;	
+	}
+	#version {
+		font-size:1em;
+		text-align:right;
+	}
+	/*######################################################"*/
+	/* RENDRE UN ÉLÉMENT INVISIBLE */
+	/*Modifie la mise en page
+	L'élément n'existe plus */
+	.invisible {
+		display:none;
+	}
+	.visible {
+		display:block;
+	}
+	/*Ne modifie pas la mise en page
+	L'élément est remplacé par du blanc */
+	.masque {
+		visibility:hidden;
+	}
+	.nonmasque {
+		visibility:visible;
+		color:#FF0000;
+	}
+	/*######################################################*/
+	section {
+	width: 1000px;
+	margin-left: 0;
+	}
+	#intro {
+		font-size: 0.9em;
+	}
+	#table_sun {
+		border: 1px solid black;
+		border-collapse:collapse;
+		font-size:1.1em;
+	}
+	#table_sun tr:nth-child(odd) {
+		background-color: #DCDCDC;
+	}
+	#table_sun tr:first-child {
+		background-color: silver;
+	}
+	#table_sun th {
+		width:138px;
+		font-size:0.8em;
+		border:1px solid black;
+		text-align:center;
+	}
+	#table_sun td {
+		width:138px;
+		font-size:0.8em;
+		border:1px solid black;
+		text-align:center;
+	}
+	#alerte {
+		color: red;
+	}
